@@ -1,0 +1,343 @@
+Applications
+--- Phrase de lien ici ---
+La Blockchain est avant tout un registre, à l’image du Grand Livre en comptabilité. Seule, elle sert à peu de choses. En revanche, couplée au protocole d’échange Peer-to-Peer et à une monnaie cryptée, la technologie prend tout son sens. Pour rappel, le réseau Peer-to-peer est un système permettant à deux ordinateurs de communiquer entre eux sans avoir à passer par un serveur central. La crypto monnaie est un symbol, ou token en Anglais, sur lequel les membres s’accordent en terme de valeur.
+A l’image des généraux antiques, ce triumvirat a le potentiel de bouleverser l’économie telle que nous la connaissons. En effet, il n’est plus nécessaire d’avoir une autorité de supervision ou de régulation sur une opération qui nécessite une confiance absolue dans la contrepartie. Par exemple, si l’on traite avec une banque, c’est surtout parce qu’on ne craint pas qu’elle parte avec l’argent placé den dépôt.
+Or, un théorème en cryptographie établit que tout ce qui peut être fait avec une autorité de supervision, peut l’être également sans. Le défi consiste à trouver un mécanisme permettant une telle chose. 
+La Blockchain est une technologie qui a pour vocation de s’affranchir de l’autorité de supervision. La démultiplication des opérations d’audit et des contrôles, souvent en doublon, parfois obsolètes, ont pour vocation à être remplacé par une série d’algorithmes qui exploitent un registre commun, quasi-unique (footnote : Pour rappel, on parle de registre quasi-unique, car il est techniquement possible d’avoir deux registres. Toutefois, un seul registre est réputé viable : le plus long.), et dont l’information est réputée fiable. 
+La difficulté de ces algorithmes peut consister à contrôler si une personne a les fonds nécessaires à un achat, tout comme consister en des calculs plus complexes pour établir des mesures de risque associées à un client. Toutefois, avant d’élaborer de nouveaux algorithmes, il faut savoir s’il est possible de les appliquer.
+A l’heure actuelle, la difficulté principale gît dans l’utilisation et l’exploitation de façon standardisée des concepts de Blockchain, crypto-monnaies et protocoles. L’objectif de la communauté de développeurs est de fournir un socle commun, facilement exploitable, et partagé par l’ensemble des utilisateurs de la technologie. Pour illustration, le Bitcoin est une des crypto-monnaies les plus répandues. Elle utilise ces trois piliers, mais la communauté qui le maintient ne parvient pas à se mettre d’accord sur les améliorations face aux contraintes techniques auxquelles elle fait face.
+Cet effort est essentiel. Par exemple, la standardisation des composants électroniques dans les années 90 a permis à Microsoft de créer un système d’exploitation qui fonctionne avec tous les constructeurs de matériel informatique. Les premiers circuits intégrés datent pourtant de 1958.(footnote : Jack Kilby est l’inventeur du premier circuit intégré alors qu’il travaillait pour Texas Instrument. Source : https://www.nobelprize.org/nobel_prizes/physics/laureates/2000/kilby-bio.html)
+--- Listing des sections ici ---
+--- Vérfier si Billal a traité des trois points avec les concepts de fiat currencies, double spend, byzantine generals ;  Blockchain 1.0 : La Crypto-monnaie ;Le trium vira : block-chain, protocole et monnaie ---
+
+Blockchain 1.0 : rappel sur les crypto-monnaies et leurs fondements
+Le Blockchain 1.0 a permis l’échange de monnaies fiduciaires, ou fiat monnaies entre différentes contreparties. Le terme fiat monnaie provient de l’Anglais et signifie « confiance ». Economiquement parlant, une monnaie fiduciaire est une monnaie dont la valeur est basée sur la confiance que les utilisateurs lui donnent. Une telle monnaie existait déjà dans l’antiquité chinoise, avant l’avènement des billets de banque sous la dynastie Song, et consistait dans l’échange de petits coquillages appelés cauris.
+--- insérer image de cauri et billet de banque des songs ici ---
+En théorie donc, la valeur de l’Euro ou du dollar américain sont des monnaies fiduciaires. Leur valeur n’est pas portée par une contre-valeur en or qui serait stockée dans les coffres des pays de l’Union Européenne. Toutefois, en pratique ces monnaies sont supportées par les impôts que les utilisateurs doivent payer. 
+C’est pourquoi à l’heure actuelle, le concept de fiat monnaie à proprement parler semble ne porter que sur les crypto-monnaies. Par conséquent, l’utiliser comme vecteur économique semble être une première dans l’économie moderne. Il s’agit donc d’une limite possible dans son adoption généralisée.
+L’utilisation la plus fréquente du Blockchain s’était cantonnée jusqu’à tout récemment au transfert d’argent. On a ainsi pu voir émerger des monnaies comme le Bitcoin ou tout autres crypto-monnaies appelées Altcoins ou Colored coins  (footnote : En théorie, n’importe qui peut créer sa propre monnaie.). Les premières entreprises basées sur ces crypto monnaies sont nées. Il s’agissait de centrales d’échange de crypto-monnaies ou de coffre-fort de monnaies virtuelles pour la plupart. On a ainsi vu apparaître des entreprises comme Paymium en France, ou Counterparty aux Etas-Unis. Echanger de l’argent n’est alors pas toujours très pratique. Dans le cas de figure le plus courant, il faut scanner deux codes barre et attendre une dizaine de minutes pour que la transaction soit validée. Il ne s’agit donc pas encore d’une technologie applicable pour les achats courants. De plus, nous sommes très loin des deux mille transactions par seconde en moyenne traitées par VISA, avec des pics à dix milles transactions par seconde.
+Le deuxième problème phare consistait à l’impossibilité d’échanger entre les différentes crypto-monnaies. Ainsi, un Bitcoin (sigle BTC) ne pouvait être échangé contre un Counterpartycoin (sigle XCP).
+Le troisième problème, plus fondamental, consistait à savoir ce que l’on échangeait. L’idée même de monnaie consiste à transférer un bien contre un autre, sous réserve qu’ils aient une même valeur perçue. Avec les crypto-monnaies, on pouvait juste les transmettre. Rien ne préfigurait en échange de quoi le transfert était réalisé.
+La technologie a donc vu une amélioration significative de ses fonctionnalités. Il est désormais possible de créer des contrats dits intelligents, ou smart-contracts. Ceux-ci sont implémentés dans ce que l’on appelle les Blockchain 2.0. L’implémentation, ou moise en pratique du concept des smart contacts se fait à l’aide d’applications décentralisées.
+
+
+Les applications décentralisées
+L’émergence des applications décentralisées : les Dapps
+Un nouveau paradigme émerge de cette définition. Le Bitcoin(footnote : Le Bitcoin est un système permettant de transférer une crypto-monnaie entre différentes contreparties de manière sécurisée, fiable, à moindre coût qu’avec une banque classique, et à l’aide d’un registre crypté appelé blockchain.) a montré le chemin avec son code open source, sa nature Peer-to-Peer, ses enregistrements cryptés (Blockchain), et un nombre limité de tokens qui alimente l’utilisation de ses caractéristiques.
+En moins d’une décennie, nombre d’applications ont réutilisé le modèle du Bitcoin. Ethereum(footnote : Ethereum est une plateforme de développement d’applications décentralisées qui permet d’implémenter des smart-contracts. Il s’agit d’une fondation suisse à but non lucratif. Source : https://www.ethereum.org/), Omni Layer(footnote : Omni Layerest une plateforme de développement pour créer et échanger des monnaies et des actifs digitaux. Source : http://www.omnilayer.org/)  et le réseau SAFE Network(footnote : SAFE Network est une plateforme de développmeent d’applications décentralisées. Source : https://safenetwork.org/) sont des exemples de des « applications décentralisées » qui utilisent des méthodes diverses et varier pour fonctionner. Ethereum par exemple utilise son propre Blockchain. Omni, à l’opposé utilisent un Blockcahin existant, mais crée sa propre cypro monnaie, ou token, appelée Omni Layer. SAFE Network opère deux niveaux plus hauts, avec un Blockchain déjà existant, et émettant ses propres tokens.
+Le Blockchain est une technologie de l’information, mais pas uniquement. Grâce à sa propriété décentralisée, il introduit un nouveau paradigme informatique, à l’image de l’introduction de la programmation orientée objet. Il s’agit plus spécifiquement de la couche économique que le web n’a jamais eue.
+C’est un système de coordination d’activités, d’attribution de récompenses aux utilisateurs bona fide, d’accord de crédit et de preuve de transactions dans un environnement ne nécessitant pas de supervision d’un tiers pour en assurer la fiabilité et la confiance entre parties. En résumé, c’est un réseau décentralisé de confiance(footnote : Antonopoulos, A.M. Mastering Bitcoin: Unlocking Digital Crypto-Currencies. Sebastopol, CA: O’Reilly Media, 2014. P. : ???)
+
+Plus encore cette technologie peut s’apparenter à un web 3.0. 
+
+Jusqu’ici Internet a été conçu avec la pensée américaine : globale. On essaie d’appliquer partout le même modèle de travail, de pensée et de réglementation. 
+
+Le deuxième modèle, plus souvent trouvé en Europe, est transnational. Le blockchain tente le pari du transnational. Dans ce modèle, on cherche à adopter des pratiques spécifiques aux coutumes, règles et conditions locales, tout en fournissant des produits similaires mais adaptés aux besoins locaux. Par exemple, Phillips fonctionnait sur ce modèle au début des années quatre-vingt dix. Les équipes commerciales étaient dédiées par pays. Avec l’avènement de l’Union Européenne et la réduction des spécificités légales et techniques, il semblait que ce modèle était voué à disparaître.
+
+Avec le phénomène de mondialisation, un grand nombre d’acteurs économiques ne se retrouvent pas dans le nouvel équilibre. Les avertissements de Karl Marx sur les excès potentiels du capitalisme et des risques de la mondialisation trouvent enfin écho jusque dans les cabinets de l’Organisation Mondiale du Commerce (footnote : source ???). 
+
+Grâce au blockchain il est possible de centraliser l’activité économique là où les richesses sont créées. Grâce à son coût de mise en place très faible et à sa modularité, il est possible de mettre en place des idées innovantes ou répondre à des besoins en un temps record. Le blockchain ne se contente pas de transmettre de l’argent. Il permet d’en créer, notamment par le biais des smart contrats.
+
+
+
+
+
+
+Les smarts contracts
+
+
+
+
+Définition
+
+Les smart contracts, ou contrats intelligents, tiennent à la fois de la technologie et du droit. Il n’existe cependant pas de définition juridique du terme. Leur manifesation technique se trouve dans ce que l’on appelle des applications ou organisations décentralisées. Par convention, on les écrit avec un D barré : Ð.
+
+Ðapps, ÐAO, ÐACs et ÐAS sont toutes des abréviations pour :
+-	Ðapps : applications décentralisées
+-	ÐAOs : organisations autonomes décentralisées
+-	ÐACs : entreprise autonomes décentralisées
+-	ÐAS : sociétés autonomes décentralisées
+Il s’agit de smart-contracts qui se comportent comme des entités à part entière pré programmées, voire auto programmées, réalisant des opérations liées à un Blockchain.
+Ethereum définit un smart contract (ou Dapp) comme étant :
+ « un protocole de transaction qui exécute les clauses du contrats ou groupe de contrats sur une blockchain cryptographique. »
+Dans un livre blanc, une communauté de développeurs proposent une définition plus restrictive d’une Dapp.(footnote : David Johnston, Sam Onat Yilmaz, Jeremy Kandah, Nikos Bentenitis, Farzad Hashemi, Ron Gross, Shawn Wilkinson and Steven Mason  “The General Theory of Decentralized Applications, DApps. » GitHub, Février 2, 2015. https://github.com/DavidJohnstonCEO/DecentralizedApplications.). Elle doit avoir quatre propriétés :
+-	L’application doit être totalement open-source, fonctionner de manière autonome, avec aucune contrepartie contrôlant l’essentiel de ses tokens (footnote : i.e. stock de crypto-monnaie). L’application peut adapter son protocole en fonction des améliorations proposées  et des retours du marché. Cependant, toute modification doit être réalisée par consensus des utilisateurs
+-	Les données et les enregistrements des opérations effectuées par l’application doivent être cryptées et stockées dans un blockchain public et décentralisé. L’objectif est d’éviter que l’application les merde suite à une défaillance sur le point unique où opère l’application.
+-	L’application doit utiliser un token crypté (Bitcoin ou toute autre crypto-monnaie native du système), qui est requis pour accéder à l’application. Toute contribution de valeur faite par les mineurs/farmeurs doit être rémunérée avec des token de l’application.
+-	L’application doit générer des tokens en fonction d’un algorithme de cryptographie standard. Ces tokens sont des preuves qu’un travail ayant une valeur a été effectué sur l’application sur un nœud donné (Bitcoin utilise l’algorithme de Proof of Work).
+
+Nous proposons la définition suivante :
+Une Ðapp est une application exécutée sur un réseau distribué. Les participants partagent des informations protégées en toute sécurité (et potentiellement avec l’aide d’un pseudonyme). Les opérations s’exécutent de manière décentralisées à travers les différents nœuds du réseau.
+
+Nomenclature
+Au-delà de la définition d’une Ðapp, il est nécessaire de définir les termes associés à la technologie du Blockchain. 
+Initialement, les Ðapps étaient appelées des ÐACs (Entreprises Autonomes Décentralisées). Par la suite, le terme a évolué pour décrire d’autres concepts.
+Le premier problème associé au terme ÐAC est son nom. Une entreprise est encrée dans l’esprit du public comme une entité à but lucratif constituée de membres au statut hiérarchique organisé autour d’une structure bien définie. Une Ðapp ne comprend aucun élément de cette définition.
+La « beauté » d’une application décentralisée réside dans sa nature même. Elle ne nécessite pas que l’on recrée une structure centralisée pour fonctionner, avec à sa tête un manager et des employés. Elle répond à un besoin et sa structure même renie le concept même d’appropriation par l’intermédiaire d’un pouvoir d’achat. Le créateur de l’application est rétribué au moment de sa mise en place sur le réseau. A cet instant, il perd la propriété. L’application est autonome et fonctionne tant que la plateforme sur laquelle est déployée l’application fonctionne. Elle ne s’active que lorsqu’on l’appelle et l’alimente par le biais de tokens, ou crypto-monnaies.
+Une entreprise dans le sens traditionnel peut lever des fonds. Une Ðapp n’en a pas besoin. Elle génère elle-même ses propres ressources par l’intermédiaire de la palteforme (ex. : Ethereum). On verra donc émerger un véritable écosystème d’applications.
+Il faut noter qu’un token, ou crypto-monnaie n’est pas une monnaie au sens conventionnel du terme. Elle n’est pas supportée par une contrevaleur en métaux précieux. Elle n’est pas non plus supportée par des impôts avenirs. Parler de monnaie serait au mieux un abus de langage, au pire un danger pour l’économie, dans sa définition actuelle.
+Un token est une unité de mesure qui est générée au moment ou un calcul a été réalisé par l’intermédiaire d’une machine via une application décentralisée : une Ðapp. D’un point de vue technique, sa valeur intrinsèque est donc tributaire de la difficulté de sa génération, de son nombre actuellement présent sur le marché, du potentiel maximal de génération de ces tokens, etc. D’un point de vu marché, la loi de l’offre et de la demande agissent comme une surcouche dans l’établissement de son cours de change avec d’autres crypto monnaies, comme le Bitcoin. 
+Il est donc nécessaire de définir ce qu’est une monnaie en terme économique et juridique. 
+D’un point de vue économique, les caractéristiques élémentaires d’une monnaie sont (footnote : Bulletin de la banque de France, n°70, Octobre 1999, P.46. Source : https://www.banque-france.fr/fileadmin/user_upload/banque_de_france/archipel/publications/bdf_bm/etudes_bdf_bm/bdf_bm_70_etu_1.pdf):
+-	Une unité de transfert permettant de décomposer une tâche complexe en unité de valeur reconnue par tous.
+-	Une unité comptable, c’est-à-dire la mesure que les parties utilisent pour établir les prix des biens, les comparer et comptabiliser les dettes
+-	Une réserve de valeur qui permet aux individus de transférer leur pouvoir d’achat
+La première propriété est d’autant plus intéressante qu’elle permet d’éviter ce qui s’appelle la double coïncidence des besoins (footnote : Money and the Mechanism of Exchange, Jevons, W. S., 1876, chapitre I.5 source : http://www.econlib.org/library/YPDBooks/Jevons/jvnMME1.html) liée à tout troc comme décrit par William Stanley Jevons(footnote : William Stanley Jevons (1835-1882) est un économiste et logicien britannique, considéré comme cofondateur de l'école économique néo-classique et de la « révolution marginaliste », avec Léon Walras et Carl Menger.) Elle représente la difficulté entre deux parties d’avoir d’une part un besoin, et d’autre part une offre, et que ces deux parties se rejoignent au même moment. Pour illustrer, imaginons deux personnes dans deux maisons différentes. La première souhaite emménager dans la maison de l’autre, car elle correspond davantage à ses besoins. Seulement, il est très peu probable que l’autre personne soit d’une part désireuse de quitter son logement, et d’autre part d’emménager dans celui de la première personne.
+Pour ces raisons, l’Etat reconnaît comme monnaie :
+-	la monnaie fiduciaire (billets de banque), 
+-	la monnaie scripturale (tenue de compte électronique)
+Les crypto-monnais, ou tokens, semblent correspondre à cette définition en plus de partager toutes les caractéristiques d’une monnaie scripturale. Il est à noter, qu’à aucun moment la définition de monnaie ne requiert d’être contre valorisée par un élément matériel (ex. : métaux précieux).
+Dans le contexte juridique, l’unité monétaire est parfois considérée comme le seul élément qui caractérise la monnaie. (footnote : J. Hamel, « Réflexion Sur la théorie juridique de la monnaie », Mélanges dédiés à M. Le professeur Sugiyama,1940, p. ???). En France, l’unité monétaire est définie par le règlement (CE) n° 974/98 du 3 mai 1998. Il énonce dans l’article 2 que : »(footnote : Journal officiel des Communautés européennes (JOCE) L139 du 11 mai 1998)
+ « À compter du 1er janvier 1999, la monnaie des États membres participants est l’euro. L’unité  monétaire est un euro. »
+Plus généralement, il n’existe pourtant aucune définition de ce qu’est une monnaie en droit français. Les juristes définissent le paiement comme l’exécution d’obligations entre parties afin de satisfaire le créancier.(footnote : Bulletin de la banque de France, n° 70, Octobre 1999, p. 48) La monnaie en serait le moyen.
+Pourtant, le législateur semble avoir toujours été très vigilant contre toute tentative privée de substituer à la monnaie fiduciaire par un autre moyen de paiement qui en possèderait l’ensemble des propriétés. En découle une protection juridique particulière pour la monnaie fiduciaire (ex. : billets de banque). Plus précisément, l’article 442-4 du Code pénal prévoit : (footnote : Code Pénal, p 269,  Dernière modification du texte le 30 décembre 2015 - Document généré le 06 janvier 2016 - Copyright (C) 2007-2016 Legifrance, source : http://www.cjoint.com/doc/16_01/FAhnIM1xInM_codepenal2016.pdf)
+« La mise en circulation de tout signe monétaire non autorisé ayant pour objet de remplacer les pièces de monnaie ou les billets de banque ayant cours légal en France est punie de cinq ans d’emprisonnement et de 75.000 euros d’amende. »
+L’article R 642-2 du code pénal complète ces dispositions par un article qui attaque ses utilisateurs, et pas seulement ses émetteurs de monnaie fiduciaire privée : (footnote : Code Pénal, p 366, Dernière modification du texte le 30 décembre 2015 - Document généré le 06 janvier 2016 - Copyright (C) 2007-2016 Legifrance, source : http://www.cjoint.com/doc/16_01/FAhnIM1xInM_codepenal2016.pdf)
+ «  Le fait d’accepter, de détenir ou d’utiliser tout signe monétaire non autorisé ayant pour objet de remplacer les pièces de monnaie ou de billets de banque ayant cours légal en France, est puni de l’amende prévue pour les contraventions de 2e class ».
+Ces limites juridiques constituent un sérieux frein au développement de plateformes d’échange de crypto-monnaies. Elles ont pourtant pour objectif de protéger le particulier comme les entreprises. 
+Si une personne décide de créer sa propre crypto-monnaie, en fait monter la cote arbitrairement, et revend son stock contre de la monnaie conventionnelle (ex. : de l’euro), le prix va nécessairement chuter. Or, il semble n’exister aucune limite d’achat ou de vente de crypto-monnaie pour un acheteur donné. Il n’y a pas non plus de mécanisme de fermeture du marché. Enfin, la fraude n’est pas forcément responsable de pertes colossales potentielles.
+Pour illustrer, le 4 Décembre 2013, le gouvernement chinois interdit les instituions financières de faire des transactions avec le Bitcoin. Sa valeur marchande sur la plateforme d’échange BitStamp est de 1132.01 dollars américains. Le lendemain, à 18h02, il ne valait plus que 875 dollars américains sur la même plateforme, soit une perte de 23% en une seule journée. (footnote : Bloomberg News, 5 Décembre 2013. Source : http://www.bloomberg.com/news/articles/2013-12-05/china-s-pboc-bans-financial-companies-from-bitcoin-transactions) Le phénomène est mondial. Entre Décembre 2013 et Avril 2014, les plateformes CoinDesk BPI, Bitfinex, Coinbase, itBit, OKCoin ou le défunt Mt.Cox  montrent une valorisation du Bitcoin divisée par deux sur la période.(footnote Source :http://www.coindesk.com/price/). Le phénomène se reproduit dans les mêmes proportions entre Juin 2014 et Janvier 2015.
+Enfin, la valorisation de ces crypto-monnaies pose problème, car ils ne semblent pas obéir à la loi du prix unique. En effet, un euro au Japon vaut un euro en France. En revanche, la valorisation des crypto-monnaies n’est pas du tout la même d’une place d’échange à l’autre.
+Pour ces raisons, et afin d’assurer le développement du système des applications décentralisées, il n’est pas recommandé de considérer une crypto-monnaie, ou token, comme une monnaie fiduciaire à court terme. Il est recommandé de prendre un token pour ce qu’il est : une unité de mesure qui représente un travail de calcul à valeur ajoutée réalisé par une machine sur un nœud informatique.
+C’est sur les fondements de cette nomenclature que l’on observe un réel clash entre le monde réel et ce monde numérique en devenir. Dans le monde réel, les tokens n’ont pas leur place en l’état. Seulement, dans un univers numérique, ils agissent purement et simplement comme une monnaie d’échange entre les applications développées et déployées dans l’univers donné. Cet univers est supporté par le Blockchain, mémoire physique du système. 
+
+Classification des Ðapps
+Les applications décentralisées peuvent être classées de plusieurs manières différentes. La classification proposée repose sur la manière d’utiliser le Blockchain.
+Le premier type de Ðapps possède son propre Blockchain. Bitcoin, Ethereum and Litecoin sont des exemples de ce type d’application.
+Le deuxième type de Ðapp utilise le Blockchain d’un réseau tiers, en général celui du premier type d’application. Ces applications décentralisées sont en fait des protocoles. Elles possèdent des tokens, ou crypto-monnaies, qui leurs sont propres pour pouvoir fonctionner. Omni Protocol, initialement connu sous le nom de Mastercoin,  est un exemple de ce type.
+Le troisième type d’application déentralisé utilise des protocoles issus des applications du deuxième type. Il s’agit une fois encore de protocoles et possèdent également des tokens propres à leur fonctionnement.  SAFE Network par exemple, utilise Omni Protocol pour émettre un token appelé « safecoin ». Ce dernier peut être utilisé pour acquérir de la capacité de stockage décentralisée.
+Une analogie entre les trois types consiste à dire qu’une application du premier type est aux applications décentralisées, ce qu’un système d’exploitation (ex. : Windows, Android, iOS) est à l’informatique. Le deuxième type est alors l’équivalent d’une solution logicielle généralisée comme une traitement de texte pu une solution de stockage (ex. : Microsoft Word, Dropbox, etc.). Le troisième type serait une application spécialisée de gestion comptable pour les PME (ex. : Ciel software).
+Compte tenu de la classification proposée, il est probable que l’on voit peu de Ðapps du premier type, beaucoup d’applications du deuxième type, et une très grande quantité d’applications du deuxième type.
+Titre 2 : La valeur d’une dapp : 
+Chapitre basé sur le lien : https://docs.google.com/document/d/1Qh0KIQpy3Ob070BKHNA82fYGL0atlGSfmKCKJpS-QH8/edit
+
+Titre 2 : Mode de fonctionnement d’une Dapp
+Titre 3 : Mechanisme d’obtention du concensus
+
+Titre 3 : Mechanisme de distribution des tokens
+
+Titre 2 : Structure juridique et modèle légal d’une dapp
+L’emission et la détention des tokens
+Organisations à but non lucratif
+
+Bonne pratiques pour réaliser une Dapp
+
+
+Titre 2 : Développement d’une Dapp
+Etape 1 : un livre blanc de description de la dapp et de ses cacatéristiques
+Etape 2 : Distribution des tokens d’initiation
+Etape 3 : Dispertion de la propriété de la Dapp
+
+Titre 2 : Ma première Dapp
+-------------------------------------------
+Surement à palcer ailleurs : >>
+Turing completenesse >> à placer ici
+Plateformes de développement et APIs
+Pb avec rest vs ce qui existe (pythereum, metero, serpent, solidity, javascript, etc .)
+-------------------------------------------
+
+
+
+
+
+Etat de l’art des applications de type 2 et type 3.
+
+
+L’ecosystème de la Blockchain
+Ethereum : machine virtuelle totale de Turing
+Economie suivant le modèle monétaire de Hayek (actuellement 166 monnaies nationales dans le monde) vs. Près de 600 types de crypto monnaies référencées et cotées
+Techno push et non pull
+
+
+ÐAOs et ÐACs
+Les ÐAO (Organisations Autonomes Décentralisées) sont des formes plus complexes d’applications décentralisées. Pour obtenir le statut d’organisation, une Ðapp doit adopter des fonctionnalités plus complexes, tel qu’un équivalent de constitution, et qui aurait pour but de rendre publique les principes de gouvernance qui la régissent au travers du Blockchain. Elle doit également mettre en place un mécanisme pour financer ses activités tel qu’au travers d’une levée de fond ou une émission de parts, telle que des actions boursières. Il s’agit donc du pont entre le monde réel et le monde numérique.
+A l’heure actuelle, on est encore à la limite de ce que propose la technique et de la science fiction. Les ÐAOs et les ÐACs (Entreprises Autonomes Décentralisées) sont des concepts issus de l’intelligence artificielle. Dans l’idée, un réseau décentralisé constitué d’agents autonomes réalise des tâches qui peuvent être conçues au travers d’un modèle d’entreprise fonctionnant sans intervention humaine, et régi par des règles métier préétablies. (footnote : « DEV PLAN, » Ethereum, 09 Juin 2016, https://github.com/ethereum/www/blob/master-postsale/src/extras/pdfs/%C4%90%CE%9EVPLAN.pdf, p.32) 
+
+Il s’agit d’un pas en avant colossal. Dans les structures traditionnelles des entreprises, la tendance est de mettre les choix et « l’intelligence » au cœur, et l’automatisation en périphérie. Dans une ÐAO, c’est l’inverse qui se produit. L’activité créative est placée en périphérie du système. Elle est fournie par l’intervention humaine. Le cœur du système est totalement automatisé. L’objectif d’une telle démarche est de supprimer la distinction plus ou moins ténue entre employé, investisseur, client et non-employé. La ÐAO devient alors un moyen très puissant pour mesure la contribution qu’une personne a produit pour l’organisation. Dans un deuxième temps, les premières ÐAO peuvent servir de terrain d’entrainement pour les prochains modèle d’organisation humaine telle que la démocratie liquide et la furtarchie.(footnote : expliquer ce qu’est la démocatrie liquide et la furatchie) Pour reprendre l’idée des membres fondateurs de la foncation Ethereum, à terme, il se pourrait que l’on voie les usines totalement automatisées qui combinent intelligence artificielle et ÐAO. (footnote : « DEV PLAN, » Ethereum, 09 Juin 2016, https://github.com/ethereum/www/blob/master-postsale/src/extras/pdfs/%C4%90%CE%9EVPLAN.pdf, p.32)
+
+Un cas d’étude consiste à la livraison des VISA sur les passeports ou encore le processus de création d’une entreprise. Les étapes de contrôle est connu. Dix ans plus tôt, la création d’une entreprise prenait quasi huit mois. En 2016, l’opération est réalisée en une semaine pour les plus petites structures. En théorie, le processus peut être accéléré substantiellement.
+
+En pratique, on commence à voir apparaître ce type d’organisation avec le Bitcoin. Le modèle ne fait pas appel à un ingénieur pour vérifier l’état des bases de données. Il ne fait pas non plus appel à des ressources en support pour le maintien des serveurs ou du service. Il ne fait pas appel aux organes de contrôle, contrôleurs de gestion, auditeurs et managers de compte. Il fait appel à un ordinateur quelconque sur un réseau gratuit et à de l’électricité. Le processus « intelligent » est codé sous forme d’algorithme. Le blanchiment d’argent est potentiellement contrôlable par le biais d’algorithme d’étude des flux. L’amélioration des contrôles, de sécurité ou encore d’efficacité est extérieure au Bitcoin. Cette étape là, elle, est bel et bien fournie par l’homme. On replace donc la création de valeur ajoutée dans l’innovation, l’inspiration et la créativité.
+
+Plus récemment, des ÐAOs et les ÐACs rudimentaires sont apparues. Storj (footnote : https://storj.io/) est un réseau fondé en 2014 avec pour objectif de permettre le partage de ressources de stockages inutilisées des particuliers et des entreprises sur le réseau Peer-to-Peer. L’objectif est d’atteindre coûts très inférieurs aux prix pratiqués par les professionnels du stockage en ligne, communément appelé le Cloud. Le pari semble  gagné car le coût estimé de stockage de l’utilisateur du service est d’un peu moins de six euros par mois pour un utilisateur, lors du lancement de la version de test le 3 Juin 2016. (footnote : source : http://blog.storj.io/post/110416906278/how-much-will-i-make-from-driveshare) A titre de comparaison, le coût est au moins du double pour les solutions de stockage les plus économiques, et peut aller au centuple pour les versions haut de gamme.(footnote : Marckx, C. « Storj: Next-Generation Cloud Storage Through the Blockchain. » CryptoCoinsNews, dernière mise à jour le 11 Avril 2014. https://www.cryptocoinsnews.com/storj-nextgeneration-cloud-storage-through-the-blockchain/). Dans l’exemple du réseau Storj, un utilisateur achète de l’espace de stockage avec une crypto-monnaie appelée Storjcoin X (SJCX) sur une application appelée Metadisk. L’agent prêteur d’espace de stockage sur une autre application appelée DriveShare.
+Nous sommes donc bien en présence d’une ÐAO, dont le business model entre en confrontation directe avec DropBox ou Google Cloud Storage.
+
+ÐASs : redéfinir l’écosystème des applications décentralisées
+Il est théoriquement possible d’aller plus loin que les ÐAOs avec ce que l’on appelle les ÐASs (Sociétés Autonomes Décentralisées). Il s’agit essentiellement de méta structure de smart-contracts. Pour imager, les ÐASs sont aux smart-contracts ce que le Big Data est aux données stockées sur des serveurs.
+Pour s’approprier l’idée de ÐASs, il faut imaginer une flotte de ÐAOs, ÐACs et ÐApps et s’éloigner du paradigme mercantiliste de la société actuelle. A partir d’un certain niveau de développement de ces entités, certaines d’entre elles vont devoir s’auto contrôler, à l’image d’un écosystème. Les forces de marché s’exercent de moins en moins au profit d’une gestion énergivore et d’une gestion de la puissance de calcul des machines. Des sous-ensembles régis par des lois comparables doivent nécessairement être extraits sous l’impulsion de programme auto-remplis. Une telle chose est déjà observable au sein d’une économie.
+On ne parle pas de science fiction. A l’heure actuelle, il existe des outils que l’on appelle des générateurs de code, qui préparent des pans de code standard pour réaliser des opérations courantes. S’agissant d’un ÐAO par exemple, et qu’une constitution la régit, ces pans ce code peuvent être gérés automatiquement afin de permettre un autocontrôle des activités des ÐApps.
+La mission des ÐASs est donc de pérenniser le système de ÐApps et éventuellement transformer intégralement le système social actuel, à l’image de certains livres de science fiction.
+
+DAO et organization humaine : la futarchie
+--- Copier l’article du blog ici ---
+
+Contrats et cadre légal
+
+Dans le droit français, le contrat et la convention sont utilisés indifféremment. Le terme contrat désigne le document même, alors que la convention désigne plutôt le contenu du contrat. L’article 101 du code civil décrit :(footnote : http://droit-finances.commentcamarche.net/download/telecharger-198-code-civil-2016-pdf-en-ligne)
+ « Le contrat est une convention qui crée des obligations, ce qui suppose un accord de volonté entre au moins deux personnes ».
+
+L'article 1101 du code civil définit le contrat comme une convention. Les personnes qui sont tenues par les termes d'une convention sont les « parties contractantes », ou les « parties », « les contractants » ou encore « les signataires ». L'effet relatif des contrats, interdit aux tiers de se prévaloir de l'autorité d'une transaction à laquelle ils ne sont pas intervenus, mais cet effet ne les prive pas de la possibilité d'invoquer la renonciation à un droit contenue dans la transaction.
+
+En termes plus communs, une personne  ne peut pas prétendre avoir participé à une transaction, si ce n’est pas clairement écrit dans le contrat. En revanche, ils peuvent abandonner certains droits associés au contrat. Ces caractéristiques se retrouvent très précisément dans les smart-contracts.
+
+L’article 1108 précise que :
+«  La formation d’un contrat est subordonnée à la connaissance de l’acceptation de l’offre par le pollicitant,(footnote : Le terme de pollicitation tient son origine du droit romain, où il correspondait à une promesse de don réalisée par un candidat à une magistrature municipale. De nos jours, en droit civil français, la pollicitation ou offre est le fait de proposer la conclusion d'un contrat. Source : Voir sur le TFLI (http://atilf.atilf.fr/dendien/scripts/tlfiv5/advanced.exe?8;s=1387105140;) ou Gérard Cornu (dir.) et Association Henri Capitant, Vocabulaire juridique, Paris, Presses universitaires de France, coll. « Quadridge »,‎ 2005, 7e éd., 970 p. (ISBN 978-2-13-055097-6, OCLC 469313788), « Pollicitation », p. 679) c'est à dire au moment de la réception par le celui qui émet une offre de conclure un contrat, de l'acceptation de l'autre. »
+
+Le contrat est donc valable au moment de la réception de ce dernier, sous réserve que les parties valident toutes les clauses, qu’elles puissent être réalisables, et que ces clauses soient valides face à la loi. Une fois encore, les smart-contracts fonctionnent sur ce principe. Les besoins sont connus. Le contrat est consultable et modifiable librement, grâce à ce qu’on appelle une licence open source. Pour plus de détails sur le terme, se référer à la section relative aux défis légaux. 
+
+Si les deux parties sont d’accord, alors il existe deux sortes d'actes juridiques créateurs d'obligations : 
+- le contrat 
+- l'acte juridique unilatéral (qualifié d'engagement unilatéral de volonté).(footnote : L'engagement unilatéral de volonté est un acte juridique unilatéral qui fait naître immédiatement une obligation à la charge du souscripteur, c’est-à-dire celui qui s’engage. Pour rappel, en droit français, on ne peut pas être créancier contre son gré. C’est pourquoi, l'engagement bilatéral ne peut être exécuté que si le créancier accepte.L'acte juridique unilatéral  est invoqué pour justifier la création d’une société unipersonnelle. Autrement, un artisan n’aurait aucun intérêt un à verser toutes ses économies et son travail dans une société vide, sans contribution. Si on admet l'efficacité, la validité de l'engagement unilatéral de volonté, alors l'acceptation définitive n'est pas nécessaire à la création d'obligation. Celle ci existe et est irrévocable à partir du moment où le souscripteur a manifesté sa volonté de souscrire une obligation.)
+
+Dans le contexte des applications décentralisées et des smart-contracts, l’attention est portée sur les contrats, et plus précisément les contrats numériques.
+
+Jusqu’à tout récemment, les conditions de forme des contrats conclus par voie électronique étaient légiférées par le texte de l'Ordonnance n° 2005-674 du 16 juin 2005 relative à l'accomplissement de certaines formalités contractuelles par voie électronique. 
+
+Ce texte a été modifié et abrogé par l’Ordonnance n° 2016-131 du 10 février 2016 portant réforme du droit des contrats, du régime général et de la preuve des obligations. On y trouve trente cinq abrogations, cinquante et une modifications et cent une créations d’articles.(footnote : https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=2553A476555664B3AC34FE722564171F.tpdila07v_2?cidTexte=JORFTEXT000032004939&idArticle=LEGIARTI000032006593&dateTexte=20160609&categorieLien=id#LEGIARTI000032006593) Le cadre légal a donc été notoirement modifié au profit des smart-contrats.
+
+La dernière ordonnance a pour objectif de simplifier les démarches légales et désengorger le système judiciaire. Par exemple, l’article 1344 permet au débiteur de mettre en demeure (suspension de paiement en attendant l’exécution des clauses du contrat) par simple demande de l’exécution du contrat. Ainsi, il n’est plus nécessaire de porter plainte ou de produire un document juridique, ce qui accélère grandement la gestion des conflits.
+
+Le cadre légal français évolue vers plus de souplesse et une gestion des conflits avec moins d’ingérence étatique. Cette évolution de la vision du droit entre en ligne avec la propriété des contrats intelligents associés au Blockchain 2.0. Enfin, dans l’Etat actuel du droit, les smart-contracts contiennent en intégralité les pré-requis demandé par le droit français. Par conséquent, s’ils n’ont pas encore force légale, ils ont vocation à être au moins un début de preuve. 
+
+Cas pratique : Blockchain et fiducie
+
+
+Whisper (messaging ethereum)
+Swarm (ethereum) file storage
+Ethereum contracts
+Accords de bretonwoods   vs. Hayek universe
+Avantage des dapps
+réutiliser le code
+
+Inconvénients des dapps face à ce qui existe déjà
+
+
+
+Vers un Blockchain 3.0
+Applications légales
+Actes notariés
+Certification de propriété artistique
+Vérification d’identité
+Modèles de gouvernance : copier futarchie blog text
+Calculs communautaires (ex. : Zooniverse, programme SETI)
+Certification de diplômes (MOOC)
+Intelligence artificielle
+
+Réseau social ???
+Digital Identity Verification
+OneName and BitID are examples of blockchain-based digital identity services. They confirm an individual’s identity to a website. Decentralized digital verification services take advantage of the fact that all Bitcoin users have a personal wallet, and therefore a wallet address. This could speed access to all aspects of websites, simultaneously improving user experience, anonymity, and security. It can also facilitate ecommerce because customers using Bitcoin-address login are already enabled for purchase.
+However, blockchain attestation services as currently envisioned are an important first step and could be incorporated in 3.0 versions that include other elements in the blockchain ecosystem. Some ideas propose including digital identity to prove ownership and a non-blockchain-based timestamping element for “time document created.” A potential technical limitation is the contention that the hash might be less secure when you’re hashing very large documents (an 8-GB genome file, for example) compared to small documents (a standard IOU contract), but this concern is unwarranted. The scalability to any file size is the beauty of the hash structure, and it is the hash length (typically 64 characters at present) that is the focus for security, and it could be made longer in the future. The usual threats to hash technology—inverse hashes (an inverse function to attempt to back-compute the hashed content) and collisions (two different files produce the same hash)—are limited in the way hashes are currently used in blockchain.
+
+Virtual Notary, Bitnotar, and Chronobit
+Virtual Notary is another project that similarly conceptualizes the need and fulfillment of these kinds of blockchain attestation services. Like Proof of Existence, Virtual Notary does not store files but instead provides a certificate that attests to the file’s contents at the moment of submission. The service provides a certificate virtual notary-type service for many different “file types” such as documents, web pages, Twitter feeds, stock prices, exchange rates, weather conditions, DNS entries, email address verifications, university affiliations, real estate values, statements and contracts, and random-number drawing. 
+
+Utiliser le blockcahin pour les tâches administratives : ex : mariage
+
+BlockChain et droit opposable :
+PrecedentCoin: Blockchain Dispute Resolution
+Another Blockchain 3.0 project focuses exclusively on using the blockchain for more effective dispute resolution. Precedent is conceptually like “The People’s Court or Judge Judy on the blockchain.” So far there has been no way to take advantage of a centralized repository of precedents used to resolve disputes, so Precedent is developing a concept, framework, altcoin, and community to implement a decentralized autonomous legal procedure organization (as described in further detail in “The Precedent Protocol Whitepaper.” Precedent’s “polycentric decentralized legal system” makes it possible for individual users to pick the legal system and features they like, emphasizing the ongoing theme of blockchain-enabled personalization of governance and legal systems. The Precedent legal/dispute-resolution community is incentivized to develop with the community coin, PrecedentCoin or nomos.
+
+
+GROS TITRE : Les limites de la technologie
+Les défis techniques
+Consommation électrique et calcul dans le vide
+Problématique de l’arbre de Merkel/Patricia
+Taille limite de la quantité de donénes que peut contenir un block >> pb bitcoin
+
+
+
+
+Les défis métier
+Tout ne se résoud pas par un contrat
+Contrainte sur l’emploi
+Qui engager pour maintenir
+Risque 
+
+
+Les défis légaux
+Il s’agit peut-être du défi le plus important auquel est confrontée la technologie. La France s’est vu doter d’une Banque Centrale sous Napoléon. Le thème même de la centralisation est au cœur de la mentalité française. Psychologiquement, il va être difficile de faire accepter le concept de décentralisation de génération de monnaies aux élites du pays.
+De plus, accepter le concept de crypto-monnaie est problématique pour les forces gouvernementales. Toute d’abord, cela va à l’encontre de leurs intérêts économiques. Le Monténégro par exemple n’a pas de monnaie nationale. Similairement, la monnaie mexicaine ou de certains pays d’Amérique latine et si dévaluée, qu’ils ont décidé d’abandonner la gestion de leur monnaie d’Etat. Dans les deux cas de figure, ces Etats ont perdu un volant de gestion économique et sont tributaire des choix économiques de l’Europe ou des Etats-Unis.
+Le problème n’est pas en soit insurmontable. Les Etats européens ont emboîté le pas de la décentralisation en acceptant de former une Banque Centrale Européenne.
+Le deuxième problème porte sur la notion de contrat. L’Union Européenne a pointé du doigt la France sur certaines professions qu’il faudrait déréguler(footnote : trouver la source), notamment les professions tel que notaire, exception françaises ayant survécu à la révolution de 1789. La technologie du Blockchain 2.0 peut transformer ces professions, voire s’en affranchir telles qu’elles sont actuellement conçues. Cependant, il faut que l’Etat qui accepte cette technologie estime que les smart-contracts ou contrats intelligents aient le statut de preuve dans le cadre légal, sinon de début de preuve a minima.
+Le problème n’en est encore une fois pas nécessairement insurmontable. Historiquement, un Etat légifère toute nouvelle pratique ou nouvelle technologie avec un retard plus ou moins grand.
+Le troisième problème consiste dans le prélèvement des taxes sur les biens échangés par l’intermédiaire d’une crypto-monnaie. On parle d’un système décentralisé, crypté, et utilisant des pseudonymes pour identifier les acteurs. Jusqu’ici, les comptables et notaires reportaient à l’Etat les transferts de richesse, ainsi que le type de richesses. Ainsi, un bien de consommation courant est taxé à hauteur de presque trente pourcent. Si la technologie se démocratise, comment établir et reporter aux autorités ces transferts ?
+---- Question à creuser --- 
+La quatrième problème consiste dans le statut fiscal de la crypto-monnaie elle-même. Il s’agirait a priori d’un moyen de paiement. Seulement tous les pays n’ont pas garanti le même statut à la crypto monnaie la plus répandue : le Bitcoin. Le Royaume-Uni considère que le Bitcoin est une monnaie d’échange, et donc non sujette à la TVA. L’Australie a conclut qu’il ne s’agissait pas d’une monnaie, car le pays définit qu’une monnaie est nécessairement émise par un Etat ou une entité gouvernementale qui agit en tant que tel. La crypto-monnaie est donc sujette à la TVA ou GST (footnote : GST signifie goods and services tax. Cette taxe est portée par des biens de valeur mobilière ou de consommation courante). Aux Etats-Unis, le Bitcoin n’est pas considéré comme une monnaie d’échange mais un instrument financier ou une propriété, et est donc sujet aux taxes sur la plus value des transactions (footnote : Hern, A. “Bitcoin Is Legally Property, Says US IRS. Does That Kill It as a Currency?”The Guardian, March 31, 2014. http://www.theguardian.com/technology/2014/mar/31/bitcoin-legally-property-irs-currency.  See also: http://www.irs.gov/pub/irsdrop/n-14-21.pdf.) Néanmoins, la FinCEN (footnote: financial crime enforcement network), les régulateurs bancaires, la SEC (footnote : Security and Exchange Commission. Il s’agit de l’équivalent français de l’AMF (autorité des marchés financiers) en France.), la CFPB, la CFTC et la DOJ considèrent le Bitcoin comme une monnaie.
+La banque Central Européenne, le Canada, les Etats-Unis, la Pologne et la Suisse délibèrent encore sur le sujet(footnote Bitcoin Embassy.  « Andreas M. Antonopoulos Educates Senate of Canada About Bitcoin. » YouTube, October 8, 2014. https://www.youtube.com/watch?
+v=xUNGFZDO8mM)
+La France, (foornote : Orsini, L. “A Year in Bitcoin: Why We’ll Still Care About the Cryptocurrency Even If It Fades.”  ReadWrite, 30 Decembre 2013. http://readwrite.com/2013/12/30/bitcoinmay-fade-2014-prediction.)
+La Norvège a classifié le Bitcoin comme matière première(footnote : http://motherboard.vice.com/blog/whos-afraid-of-bitcoin-these-countries). L’Allemagne ne projette pas de reconnaître le Bitcoin comme une monnaie digital ou étrangère, mais comme une « monnaie privée » ou unité de compte, afin de pouvoir la taxer (footnote(http://motherboard.vice.com/read/can-germany-really-tax-bitcoin). La Banque Central Européenne prévient ses utilisateurs des risques associés à la crypto monnaie, notamment vis-à-vis de la volatilité. Tout comme la Corée, elle attend de voir l’engouement de ses utilisateurs avant de légiférer.  
+La Suisse est également sur la défensive, et attend de voir le développement de la monnaie avant de se prononcer.
+La Banque Centrale thaïlandaise a banni l’utilisation du Bitcoin. Aucune transaction basée sur la crypto-monnaie n’est autorisée sur le territoire. Cela fait suite aux arnaques à répétition dans le pays, dont la plus notoire porte sur près de 310 millions de dollars avec les Utoken(footnote : http://www.coinbuzz.com/2015/04/13/arrests-in-ufun-crypto-currency-pyramid-scheme/). Cela n’a pas posé de problème aux entrepreneurs, puisqu’ils ont lancé une nouvelle monnaie : LEOcoin en Avril 2016 (footnote : http://leocointhailand.com/is-there-room-for-another-cryptocurrency/)
+La Russie a adopté une restriction similaire (footnote : Audrey Oeillet le lundi 10 février 2014 source http://www.clubic.com/pro/it-business/securite-et-donnees/monnaies-virtuelles/actualite-617938-russie-bitcoin-illegal.html)
+Le Ministère des Finances a émis le 11 Juillet 2014 une loi relative aux professionnels des monnaies virtuelles, leur échange et leur taxation(footnote : http://proxy-pubminefi.diffusion.finances.gouv.fr/pub/document/18/17768.pdf) En pratique, les monnaies virtuelles ne sont pas soumises à la TVA, mais sont imposables au titre de bénéfices industriels et commerciaux (BIC) ou bénéfices non commerciaux (BNC), que l’activité de vente ou d’achat soit habituelle ou non. Les auteurs des transactions sur les plateformes d’échange (ex. : Paymium) sont systématiquement soumis à un contrôle d’identité, ainsi qu’à un contrôle sur l’origine des fonds.
+
+Cette position ne contrecarre pas totalement les avantages  du Blockchain, de la crypto-monnaie et du protocole Peer-to-Peer. Seules les plateformes d’échanges sont contrôlées. Rien n’interdit d’échange des tokens ou des crypto-monnaies entre individus, hors plateforme d’échange professionnelle. De plus, il semble que la loi soit motivée par une lutte contre le blanchiment d’argent et les abus associés.
+
+De manière générale, il est possible de consulter la situation légale du Bitcoin sur le site https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country. S’agissant d’un site communautaire, l’information doit systématiquement être vérifiée au niveau des sites officiels associés à la législation.
+
+
+Le défi de l’open-source
+Open source signifie code source ouvert en Français. La désignation s’applique aux logiciels dont la licence respecte des critères établis par une organisation appelée «Open Source Initiative »(footnote : trouver une source ici). Ces critères sont :
+-	La possibilité de libre distribution du code à la base du logiciel
+-	La possibilité d’accéder au code source
+-	La possibilité de créer des travaux dérivés, qui eux ne sont plus forcément open source.
+--- insérer le logo Open Source ? ---
+La licence est l’outil légal qui permet d’établir le droit d’une personne à utiliser un logiciel sous certaines conditions.(footnote : source ?) Le code source est l’ensemble de lignes de code écrites par un ou plusieurs développeurs (footnote : source ?) et qui ont permis de générer le logiciel.
+Par exemple, le système d’exploitation de Microsoft Windows 10 n’est pas accessible. Il s’agit de la propriété exclusive de l’entreprise. Par opposition, Linux est un système d’exploitation open source. Certaines entreprises comme Red Hat (footnote : décrire ce qu’est Red hat ?) utilisent le code open source, développent des logiciels et les vendent aux entreprises ou particuliers intéressés. Dans ce cas de figure, s’il s’agit à la base d’open source, le fait de facturer le service exclut leur production du cadre de l’open source.
+Dans le cadre des applications décentralisées, les briques fondamentales sont open source. L’objectif est de permettre à la communauté de développeurs de fournir des solutions optimisées sur les problématiques rencontrées par une technologie donnée. Pour illustrer le concept, le Big Data est une branche de l’informatique qui se développe grâce à la communauté Open Source, sans qui la technologie sous-jacente n’aurait jamais vu le jour.(footnote : source ici) 
+Le problème vient de l’établissement d’un consensus sur l’état de l’art à appliquer globalement et des améliorations itératives à appliquer en portant toute l’attention requise aux problématiques des versions. Les débats sur certains points stratégiques ou techniques peuvent être aussi virulents que dans l’Assemblée du gouvernement français.
+En théorie des jeux, le consensus ne l’emporte pas  toujours sur un choix arbitraire réalisé par un seul agent. Le contexte et les hypothèses de base en sont la cause. Le gouvernement belge, resté sans gouvernement pendant cinq cen quarante et un jours par absence de consensus est une démonstration de ce cas de figure.(footnote : source : http://www.lalibre.be/actu/politique-belge/record-a-battre-541-jours-sans-gouvernement-53078bbd35709867e40428f9) Similairement, en cas de conflit grave (ex. : le cas d’une guerre), où le délai associé à une prise de décision entre en jeu, le consensus n’est pas favorable.
+La technologie Blockchain est en développement et amélioration constante et évolue par consensus. Seulement, les attaques à répétition et les scandales qui ont pavé le chemin du Bitcoin témoignent des enjeux économiques. Le système n’est pas infaillible comme présenté dans la section relative aux défis techniques. Il est possible à l’avenir que l’on découvre des situations qui exigent une prise de décision accélérée. Ce problème est dès à présent posé avec le Bitcoin qui fait face à des contraintes techniques fortes partagées par un certain nombre de crypto-monnaies. 
+Afin de répondre à ce problème, il est probable que l’on voie émerger un organisme à l’image de l’Open Source Initiative. L’objectif serait alors d’éviter des situations inextricables ou des « forks » technologiques mettraient en péril la stabilité du système. 
+Un « fork » est un terme Anglais qui désigne une copie d’un logiciel dont les caractéristiques et les fonctionnalités ont divergé à un moment donné dans le temps. Les concepteurs du triumvirat Blockchain, crypto-monnaie, protocole Peer-to-Peer ont misé sur l’improbabilité d’une divergence notoire. Dans le cas contraire, le commerce entre crypto monnaies serait fortement compromis et l’industrie face à une scission. De tels cas de figure sont légion dans l’histoire de l’humanité.  
+Par ailleurs miser sur l’effet de position dominante de certains acteurs ou monnaies pour imposer certains choix technique, technologique ou stratégique va forcément avoir lieu, tel que l’explique la loi de Murphy.
+Pour illustrer ce point, en 1992, des spéculateurs, dont George Soros, sont parvenus à casser la Banque d’Angleterre, équivalent outre-Manche de la Banque Centrale française (footnote : http://www.investopedia.com/ask/answers/08/george-soros-bank-of-england.asp), et engranger des profits colossaux. Leur taille et leur position était nettement défavorable face à la force d’un organisme d’Etat.
+Or, si le système de la Blockchain est avéré viable et fiable à grande échelle, et qu’il cède sous la pression d’attaques et de consensus non trouvés, ce n’est pas juste quelques investisseurs ou une nation qui est en péril, à l’image d’une monnaie qui s’effondre suite à une crise financière. La nature même de cette technologie est internationale. Lorsque le bloc soviétique s’est effondré à la fin des années quatre-vingt dix, ce sont les places boursières du monde entier qui ont dévissé, et plusieurs milliards de dollars de PIB qui sont parti en fumée avec l’absence de paiement des dettes contractées par les pays de l’ex-URSS.
+Le problème des forks est le problème plus général des versions. 
+Ce problème est connu de longue date par l’entreprise Oracle et la technologie Java. C’est le choix fait par les acteurs principaux du marché comme Ethereum en créant des machines virtuelles. Une machine virtuelle est un environnement informatique émulé sur un terminal (ex. : Smartphone, ordinateur, etc.). Cette méthode permet  l’exécution d’un programme sur un système d’exploitation où il ne devrait autrement pas pouvoir être exécuté. De manière imagée, c’est comme créer une ambassade dans un pays étranger. La même langue et les mêmes lois sont appliquées dans l’enceinte de l’ambassade que dans le pays d’origine, alors que la personne se trouve dans un pays étranger.
+L’approche la plus simple consiste à exiger des utilisateurs de mettre systématiquement à jour la version d’utilisation du socle. Cependant, cette idée ne fait pas encore consensus. La motivation est liée aux problèmes techniques que peuvent rencontrées les applications qui bénéficient de ce socle pour fonctionner.
+
+Les défis de la volatilité des crypto monnaies
+En juin 2016, le Bitcoin est évalué autour de 580 dollars américains (footnote : http://www.coindesk.com/price/). Le 18 Juillet 2010, il en valait 0.0858 dollars américains, soit plus de 6700 fois plus en en peu moins de six ans. L’écart type, qui permet de mesurer la variation de la monnaie est, sur cette période de 231,35. Par opposition, si l’on prend le cours de change entre l’euro et le dollar, on trouve une augmentation de 6,7% et un écart type de 0.10 (footnote : source own based on: http://www.investing.com/currencies/eur-usd-historical-data).
+
+--- Ajouter un commentaire explicatif des graphiques pour bien les comparer---
+--- graphique de l’évolution du cours de l’euro-dollar---
+--- graphique de l’évolution du cours du bitcoin ---
+--- graphique de l’évolution du counterpartycoin ---
+--- Graphique de comparaison avec le litecoin, percoin, namecoin, terracoin, devcoin, novacoin ---
+
+Plusieurs tendances se détachent. 
+L’engouement pour la création de nouvelles crypto-monnaies est exponentiel. En Avril 2013, on pouvait coter sept crypto-monnaies. En Juin 2016, on en retrouve cinq-cent quatre-vingt treize, soit presqu’une centaine de plus de trois mois plus tôt. (footnote : source http://coinmarketcap.com/currencies/counterparty/) avec des valeurs de marché capitalisées variant entre un millionième de dollar et neuf milliards pour le Bitcoin. Le second ne détenant en comparaison un milliard de dollars : Ethereum.
+Ainsi, s’il est possible de créer à volonté sa propre crypto-monnaie, seules quelques unes sont exploitées ave une capitalisation conséquente. On observe que les capitalisations boursières des Altcoins sont très fortement corrélées avec celle du Bitcoin, qui semble agir à l’heure actuelle comme valeur de référence.
+--- graphique des market caps les plus grosses) ---
+
+Le Bitcoin montre une volatilité, mesurée par l’écart type en mathématiques, inférieure à celles des autres crypto-monnaies.
+--- graphique des volatilités glissantes hebdo entre les 5 plus grosses capitalisations crypto-coins---
+Toutes les crypto-monnaies ne sont pas minables (ex. : Ripple ou The DAO). 
+[à confirmer] Plus une crypto-monnaie monnaie est minable rapidement, et plus sa volatilité est grande.
+Dans le cadre de leur utilisation dans un processus d’échange entre applications décentralisées, un réel problème se pose. Comment payer une tâche dans le cadre d’une application, si une monnaie n’en vaut pas une autre. Le problème de standardisation se retrouve donc, notamment lorsqu’il faudra choisir le nombre d’unité qu’on est prêt à mettre dans l’exécution d’une tâche  sur une application décentralisée. A l’heure actuelle, il ne sembler pas exister d’équation qui permette d’obtenir que telle crypto-monnaie égale un certains nombre d’unité d’une autre crypto-monnaie.
+La deuxième difficulté revient paradoxalement à l’esprit humain. Les sciences sociales ont montré que l’esprit humain fonctionne avec des biais d’ancrage. Si une monnaie évolue rapidement, le cerveau humain peut se donner des standards, appelées ancres, qui ne sont pas nécessairement en relation avec la réalité technique.
+Ainsi, si une application a besoin de 100 tokens d’une crypto-monnaie donnée à placer dans le champ STARTGAS pour fonctionner, l’opérateur disposé à prêter sa puissance de calcul peut être enclin à réaliser l’opération que s’il est personnellement rémunéré un montant de 200 tokens. Les montants échangés peuvent ainsi atteindre des pics substentiels.
+En théorie comportementale et financière, on observe que le Bitcoin est sujet à de très fortes variations de cours. Il prend donc des risques démesurés en investissant dans le Bitcoin ou tout autre crypto-monnaie, en comparaison de l’Euro ou du dollar américain. Il devrait donc s’attendre à une prime de risque. Cette considération fait abstraction des scandales et vols à répétition sur le marché des Bitcoins depuis son évènement. 
+Or, cette prime de risque est matérialisée par un degré de difficulté dans l’algorithme de minage. Les deux mécanismes ne fonctionnent pourtant pas de manière coordonnée. Le niveau de difficulté évolue uniquement en fonction du temps passé à résoudre un puzzle, que l’on appel proof of work. Ce niveau de difficulté est codé en dur, et évolue en fonction du temps passé à résoudre le puzzle du précédent block. La valeur temps critique est fixée à dix minutes.
+En théorie, plus il y a de demandeurs d’une crypto-monnaie, et plus le nombre de machine prêt à la miner est fort. En pratique, ce n’est pas le cas. Si la demande de crypto monnaie est exponentielle, la croissance du nombre de machines prête à miner, elle, est linéaire, car sujette à des contraintes matérielles. Enfin, quel que soit le nombre de machine qui mine, le temps de calcul oscillera toujours autour de dix minutes, exception faite des Litecoins.
+--- citation de l’exemple de la roue de la fortune ---
+--- vérifier avec billal s’il parle du reward une fois que tous les coins sont minés---
+Loin de ces considérations, on observe que lorsqu’un marché s’organise autour d’une plateforme d’échange, la volatilité des produits échangés diminue substantiellement. Pour preuve historique, on peut observer le développement du marché des options sur matières premières aux Etats-Unis à la fin du dix-neuvième siècle (footnote : trouver une source dans le Hull).
+Ainsi, si on a des plateformes d’échange à l’image du CBOT (Chicago Board of Trade), il serait possible de voir des équations émerger et une volatilité des cours se réduire, en dépit de la création de nouvelles crypto monnaies. 
+A noter également, que s’il existe cent soixante dix huit monnaies reconnues internationalement dans le monde (footnote : source : http://www.currency-iso.org/en/home/tables/table-a1.html), seules cinq sont échangées sur des volumes conséquents (plus spécifiquement : l’euro, le dollar américain, le franc suisse, le yen japonais et la livre sterling).
+Le deuxième facteur qui permettra une diminution de la volatilité est directement liée au nombre d’acteurs utilisant cette technologie. Plus il y a d’acteurs, et plus la juste valeur de la crypto monnaie s’approchera de sa vraie valeur, par simple application du théorème des grands nombres (footnote : source ici.) Le problème pour les professionnels consiste à savoir quelle est la taille critique du marché à partir de laquelle lancer une plateforme d’échange rentable.
+Pour le développement des applications décentralisées, le problème est tout autant problématique, puisqu’il dépend directement de la taille de la clientèle des plateformes d’échange. En effet, un acteur a tout intérêt de passer par une plateforme pour convertir sa crypto-monnaie par une autre devise ou crypto-monnaie. Comme les applications décentralisées utilisent ces tokens, leur charge apparaît comme étant directement corrélé aux plateformes.
+La seule alternative apparente est de s’affranchir de ces crypto-monnaies publiques, et de créer sa propre crypto-monnaie au sein d’une entreprise. Celle-ci est a priori moins sujette aux variations de marché, puisqu’il s’agit de la générer en interne. Cette crypto monnaie est alors utilisée en interne pour réaliser des tâches données suivant un algorithme. Par exemple, un robot peut vérifier à tout moment que tous les clients d’une banque ont leur compte courant en positif, sans avoir d’œil humain pour vérifier l’état des comptes. Toutefois, une telle opération ne tiendrait pas compte de la puissance de calcul distribuée recherchée par le réseau Peer-to-Peer.
+
+
+
+
+
+
+
+BlockChain & Big Data
+As big data allows the predictive modeling of more and more processes of reality, blockchain technology could help turn prediction into action. Blockchain technology could be joined with big data, layered onto the reactive-to-predictive transformation that is slowly under way in big-data science to allow the automated operation of large areas of tasks through smart contracts and economics. Big data’s predictive analysis could dovetail perfectly with the automatic execution of smart contracts. We could accomplish this specifically by adding blockchain technology as the embedded economic payments layer and the tool for the administration of quanta, implemented through automated smart contracts, Dapps, DAOs, and DACs. The automated operation of huge classes of tasks could relieve humans because the tasks would instead be handled by a universal, decentralized, globally distributed computing system. We thought big data was big, but the potential quantization and tracking and administration of all classes of activity and reality via blockchain technology at both lower and higher resolutions hints at the next orders-of-magnitude progression up from the current big-data era that is itself still developing.
+
+
